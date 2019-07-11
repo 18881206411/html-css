@@ -1,0 +1,10 @@
+package 数据类型之浮点型;
+
+public class FloatTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package 变量之全局变量;
+
+public class ParamTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

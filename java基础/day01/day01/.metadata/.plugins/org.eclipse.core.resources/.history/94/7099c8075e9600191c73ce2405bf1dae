@@ -1,0 +1,28 @@
+package com.fs.test;
+
+public class Test {
+//	成员变量
+	public String name;
+	public char sex;
+	public int age;
+	public float height;
+	
+	/**
+	 * 交换变量 的值
+	 */
+	public void tran(int a,int b) {
+		int temp = a;
+		a = b;
+		b = temp;
+		System.out.println("a == " + a + ", b == " + b );
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int m = 20 , n = 30;
+		System.out.println("这是交换前: " + m + ","+ n);
+		new Test().tran(m, n);
+		System.out.println("这是交换后: " + m + ","+ n);
+	}
+
+}

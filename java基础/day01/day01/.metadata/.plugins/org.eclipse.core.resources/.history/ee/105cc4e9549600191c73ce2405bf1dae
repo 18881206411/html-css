@@ -1,0 +1,10 @@
+package 数据类型转换之自动类型转换;
+
+public class TansTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

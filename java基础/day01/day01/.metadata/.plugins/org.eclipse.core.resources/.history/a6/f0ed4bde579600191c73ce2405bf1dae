@@ -1,0 +1,10 @@
+package 变量之局部变量;
+
+public class ParamsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

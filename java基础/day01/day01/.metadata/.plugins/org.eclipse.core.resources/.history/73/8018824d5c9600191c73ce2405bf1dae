@@ -1,0 +1,38 @@
+package com.fs.test;
+
+public class People {
+	
+//	成员变量
+	public String name;
+	public char sex;
+	public int age;
+	public float height;
+//	成员方法
+	/*
+	 * 1. 无参无返回
+	 * 2. 无参有返回
+	 * 3. 有参无返回
+	 * 4. 有参又返回
+	 * 
+	 * 权限修饰符  返回值类型  方法名称([参数列表]){
+	 *     方法体
+	 * }
+	 */
+	public void fun1() {
+		
+	}
+	
+	public int fun2() {
+		return 200;
+		
+	}
+	
+	public void fun3(String s) {
+		
+	}
+	
+	public int fun4(int a) {
+		return a;
+	}
+	
+}

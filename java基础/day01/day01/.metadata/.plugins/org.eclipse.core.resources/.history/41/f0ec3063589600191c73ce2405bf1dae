@@ -1,0 +1,23 @@
+package 变量之局部变量;
+
+public class ParamsTest {
+	
+	public void method1() {
+		int i = 100;
+		System.out.println("i == "+i);
+	}
+	
+	public void method2() {
+		int j = 200;
+		System.out.println("j == " + j);
+	}
+
+	public static void main(String[] args) {
+
+		ParamsTest pt = new ParamsTest();
+		pt.method1();
+		pt.method2();
+
+	}
+
+}
